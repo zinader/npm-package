@@ -1,6 +1,6 @@
 {
     "name": "zinader",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "description": "Who is Pulkit? This is a small business card to describe me :)",
     "main": "index.js",
     "bin": "./cli.js",
