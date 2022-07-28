@@ -1,19 +1,23 @@
 {
-  "name": "pulkit",
-  "version": "1.0.0",
-  "description": "Who is Pulkit?",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zinader/npm-package.git"
-  },
-  "author": "Pulkit Aggarwal",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/zinader/npm-package/issues"
-  },
-  "homepage": "https://github.com/zinader/npm-package#readme"
+    "name": "zinader",
+    "version": "1.0.7",
+    "description": "Who is Pulkit? This is a small business card to describe me :)",
+    "main": "index.js",
+    "bin": "./cli.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/zinader/npm-package.git"
+    },
+    "author": "Pulkit Aggarwal",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/zinader/npm-package/issues"
+    },
+    "homepage": "https://github.com/zinader/npm-package#readme",
+    "dependencies": {
+        "prettyjson": "^1.2.5"
+    }
 }
